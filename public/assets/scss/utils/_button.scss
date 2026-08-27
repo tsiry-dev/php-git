@@ -1,0 +1,33 @@
+.btn-primary {
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    background: $color-primary;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn-danger {
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    background: red;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn-success {
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    background: green;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.card {
+    background: rgb(229, 227, 227);
+    box-shadow: 0 2px 3px gray;
+    padding: 1rem;
+    border: .5rem;
+}
