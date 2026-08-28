@@ -82,4 +82,12 @@ html {
   margin-top: 2rem;
 }
 
+.produit {
+  background: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
 /*# sourceMappingURL=style.css.map */
