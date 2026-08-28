@@ -1,4 +1,11 @@
 .category {
     background: skyblue;
     padding: 3rem;
+
+    &-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin-top: 2rem;
+    }
 }
