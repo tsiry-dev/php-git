@@ -11,6 +11,8 @@
         <nav class="nav">
             <a href="/" class="nav-link">Acceuil</a>
             <a href="/?page=categories" class="nav-link">Categories</a>
+            <a href="/?page=services" class="nav-link">Services</a>
+
         </nav>
         
    
