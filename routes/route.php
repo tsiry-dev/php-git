@@ -6,9 +6,8 @@ if (isset($_GET['page'])) {
   $page = $_GET['page'];
 
   require_once PATH . '/routes/category.route.php';
-  require_once PATH . '/routes/about.route.php';
   require_once PATH . '/routes/contact.route.php';
-  require_once PATH . '/routes/service.route.php';
+  
 
 }else {
    homeController();
