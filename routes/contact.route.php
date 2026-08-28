@@ -9,4 +9,5 @@ require_once PATH . '/app/controllers/contact.controller.php';
  */
 if($page === "contact") {
     contactController ();
-}
+    
+}           
