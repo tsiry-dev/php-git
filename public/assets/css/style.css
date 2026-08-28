@@ -63,7 +63,7 @@ html {
   color: white;
 }
 
-.card {
+.card, .about {
   background: rgb(229, 227, 227);
   box-shadow: 0 2px 3px gray;
   padding: 1rem;
