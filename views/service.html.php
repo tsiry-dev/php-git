@@ -1,5 +1,7 @@
 <section class="service">
-    <h2 class="title">Nos services</h2>
+    <h2 class="service-Gtitle">
+        Nos services
+    </h2>
 
     <p class="service-para">
         "Nous vous proposons plusieurs services pour vous accompagner."
@@ -77,8 +79,9 @@
                 </li>
             </ul>
         </div>
+    </div>
 
-        <div class="service-contact">
+    <div class="service-contact card">
             <h3 class="subtitle">
                 Besoin d'aide
             </h3>
@@ -87,9 +90,8 @@
                 Appelez-nous ou envoyez un message
             </p>
 
-            <button class="service btn-success">
+            <button class="service-btn btn-success">
                 Contactez-nous
             </button>
         </div>
-    </div>
 </section>

@@ -1,23 +1,28 @@
 .service {
-    padding: 2rem 3rem;
+    padding: 2rem 0;
 
-    .title {
+    &-Gtitle {
         color: $color-primary;
+        padding-bottom: .5rem;
+        
     }
 
     &-para {
-        color: gray;
+        color: rgb(82, 80, 80);
     }
 
     &-items {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        padding: 2rem 0;
     }
 
     &-item {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        gap: .5rem;
     }
 
     &-stitle {
@@ -27,26 +32,42 @@
     &-boxs {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         gap: 1rem;
+        padding: 2rem 0;
+    }
+
+    &-box {
+        width: 100%;
     }
 
     &-liste {
         display: flex;
         flex-direction: column;
         gap: .5rem;
+        padding-top: .5rem;
+    }
+
+    &-title {
+        color: $color-primary;
     }
 
     &-contact {
-        background: $color-primary;
+        // background: $color-primary;
         padding: 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 1rem;
         // align-items: center;
     }
 
     &-subtitle {
         color: white;
+    }
+
+    &-btn {
+        display: block;
     }
 }
