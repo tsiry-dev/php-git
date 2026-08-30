@@ -1,85 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 9 | @import "views/about";
+ *   |         ^^^^^^^^^^^^^
+ *   '
+ *   public\assets\scss\main.scss 9:9  root stylesheet */
 
-li {
-  list-style: none;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 9 \2502  @import \"views/about\";\d\a   \2502          ^^^^^^^^^^^^^\a   \2575 \a   public\\assets\\scss\\main.scss 9:9  root stylesheet";
 }
-
-a {
-  text-decoration: none;
-}
-
-html {
-  font-size: 90%;
-}
-
-.container {
-  width: 80%;
-  margin: 1rem auto;
-}
-
-.nav {
-  background: #d98b05;
-  height: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
-  border-radius: 1rem;
-  margin-bottom: 2rem;
-}
-.nav-link {
-  font-size: 1.5rem;
-  color: white;
-}
-
-.btn-primary {
-  padding: 0.5rem 2rem;
-  border-radius: 1rem;
-  border: none;
-  background: #d98b05;
-  font-size: 1.5rem;
-  color: white;
-}
-
-.btn-danger {
-  padding: 0.5rem 2rem;
-  border-radius: 1rem;
-  border: none;
-  background: red;
-  font-size: 1.5rem;
-  color: white;
-}
-
-.btn-success {
-  padding: 0.5rem 2rem;
-  border-radius: 1rem;
-  border: none;
-  background: green;
-  font-size: 1.5rem;
-  color: white;
-}
-
-.card, .about {
-  background: rgb(229, 227, 227);
-  box-shadow: 0 2px 3px gray;
-  padding: 1rem;
-  border: 0.5rem;
-}
-
-/**********PAGE*********/
-.category {
-  background: skyblue;
-  padding: 3rem;
-}
-.category-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-/*# sourceMappingURL=style.css.map */

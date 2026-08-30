@@ -1,0 +1,52 @@
+.service {
+    padding: 2rem 3rem;
+
+    .title {
+        color: $color-primary;
+    }
+
+    &-para {
+        color: gray;
+    }
+
+    &-items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-stitle {
+        color: $color-secondary;
+    }
+    
+    &-boxs {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &-liste {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    &-contact {
+        background: $color-primary;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        // align-items: center;
+    }
+
+    &-subtitle {
+        color: white;
+    }
+}
